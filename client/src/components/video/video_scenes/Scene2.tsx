@@ -63,7 +63,7 @@ export function Scene2() {
               <span className="block bg-gradient-to-b from-zinc-200 to-zinc-500 bg-clip-text text-transparent">mode</span>
             </h2>
             <p className="mt-5 max-w-sm text-zinc-300 font-body leading-snug" style={{ fontSize: 'clamp(1rem, 1.8vw, 1.35rem)' }}>
-              Speak naturally. Archemist listens, understands, and writes the code.
+              Speak naturally. Addable listens, understands, and writes the code.
             </p>
           </motion.div>
 
@@ -174,4 +174,5 @@ export function Scene2() {
     </motion.div>
   );
 }
+
 

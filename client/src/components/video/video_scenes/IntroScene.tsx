@@ -12,7 +12,7 @@ export function IntroScene() {
     >
       <img
         src={introImage}
-        alt="Archemist intro"
+        alt="Addable intro"
         className="w-full h-full object-cover"
       />
 
@@ -48,3 +48,4 @@ export function IntroScene() {
     </motion.div>
   );
 }
+

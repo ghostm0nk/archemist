@@ -36,7 +36,7 @@ export default function VideoTemplate() {
   return (
     <div ref={containerRef} className="h-[900vh] bg-black">
       <nav className="fixed top-0 left-0 w-full z-[100] px-8 py-6 flex justify-between items-center mix-blend-difference">
-        <div className="font-display font-bold text-2xl text-white tracking-tighter">ARCHEMIST</div>
+        <div className="font-display font-bold text-2xl text-white tracking-tighter">ADDABLE</div>
         <div className="flex items-center gap-8">
           <button
             onClick={() => setShowAbout(true)}
@@ -71,17 +71,17 @@ export default function VideoTemplate() {
                 </svg>
               </button>
               <h2 className="text-white font-display text-4xl font-bold mb-6 leading-tight">
-                Archemist IDE: The Future of Voice-Native Development
+                Addable IDE: The Future of Voice-Native Development
               </h2>
               <div className="text-gray-400 font-body text-lg leading-relaxed space-y-4 text-left">
                 <p>
-                  Archemist is a voice-native AI Integrated Development Environment, designed to bridge the gap between imagination and production. Whether you're a beginner or a professional, Archemist allows you to build at the speed of thought.
+                  Addable is a voice-native AI Integrated Development Environment, designed to bridge the gap between imagination and production. Whether you're a beginner or a professional, Addable allows you to build at the speed of thought.
                 </p>
                 <p>
                   Our <strong>Stegnet</strong> engine transforms design context into production-ready code. By annotating buttons, views, and components, you provide the context your AI agent needs to autonomously code the backend, handling complex flows like authentication and database integrations with ease.
                 </p>
                 <p>
-                  <strong>Every agent can ship faster, but not every agent tells you when your MVP is ready.</strong> At Archemist IDE, your agentic environment takes care of that. It doesn't just write code; it understands the production lifecycle and ensures your application is truly ship-ready.
+                  <strong>Every agent can ship faster, but not every agent tells you when your MVP is ready.</strong> At Addable IDE, your agentic environment takes care of that. It doesn't just write code; it understands the production lifecycle and ensures your application is truly ship-ready.
                 </p>
               </div>
             </div>
@@ -151,4 +151,5 @@ export default function VideoTemplate() {
     </div>
   );
 }
+
 

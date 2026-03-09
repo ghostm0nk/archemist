@@ -47,10 +47,11 @@ export function Scene4() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.28, ease: [0.22, 1, 0.36, 1] }}
         >
-          At Archemist, it becomes a production environment and keeps feature creep out.
+          At Addable, it becomes a production environment and keeps feature creep out.
         </motion.p>
       </div>
     </motion.div>
   );
 }
+
 
